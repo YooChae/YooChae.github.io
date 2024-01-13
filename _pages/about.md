@@ -8,9 +8,8 @@ comments: false
 
 :cyclone: **블로그 바로 가기**
 [`https://YooChae.github.io/`](https://YooChae.github.io/)
+***
 
----
-
-<p align="center">
-**Chaewon Yoo**<br>Yonsei Univ. Applied Statistics 21
-</p>
+**Chaewon Yoo**
+Yonsei Univ. Applied Statistics 21
+24.01.13 수정 확인
