@@ -48,19 +48,31 @@ Nonprobabilistic, probabilistic, Bayesian Probablistic 3가지 모델을 나누�
 <사진><br>
 하지만 정말 19분짜리 길을 선택하는 것이 합리적인 판단일까? 실제로 각 경로를 따라갔을 때 걸리는 시간의 분포가 오른쪽과 같다고 하자. <br>
 운전자가 $\alpha$분 보다 짧게 목적지에 도달해야 한다면 각 분포에서 $P(t\le \alpha)$의 넓이를 비교해봐야 할 것이다.
-따라서 Nonprobabilistic은 다른 말로 Deterministic view라고 할 수 있다. (값을 딱 하나로 제공)
+따라서 Nonprobabilistic은 다른 말로 Deterministic view라고 할 수 있다. (값을 딱 하나로 제공)<br>
 
 **Probabilistic vs Bayesian Probabilistic**<br>
 여기서 좌측의 probabilistic은 frequentist의 view라고 간주한다.<br>
 두 사람을 분류하는 Binary Classifier가 있다고 가정해보자. 우리는 두 사람의 데이터에 대해서만 학습을 한 이 모델이, 아예 새로운 사람이 들어왔을 때 우리에게 그 사실을 알려주기 바란다.<br>
 <사진> <br>
-Probabilistic Model은 해당 데이터가 특정 클래스에 속할 확률을 나타내준다. 여기서 "0.7, 0.3? 차이가 별로 안 나니까 새로운 인물이라는 뜻인가보다!" 라는 결론을 쉽게 내려서는 안 된다. 모델의 성능에 따라, 혹은 데이터의 미세한 차이 때문에 모델을 돌릴 때마다 전혀 다른 값들이 등장하고는 한다. 실제로 특정 두 인물 A와 B의 차이에 대해서만 feature 구분을 했던 모델이 C에서 A와 비슷한 feature에 주목한다면 A 클래스로, b와 비슷한 feature에 주목한다면 반대로 분류하게 될테니 말이다.
-<br>
-Bayesian Probabilistic은 여기에서 차이를 나타낸다. 새로운 인물이 들어왔을 때 확률값이 요동치는 모습을 보여주어 우리는 이 모델이 제대로 구분을 못하고 있구나!라는 결론을 내리는 것이 가능해진다. 즉, Bayesian은 Uncertainty를 제대로 반영한다고 볼 수 있을 것이다. <br>
-자율주행 자동차, 암 진단 등 오류가 치명적인 분야에서는 uncertainty를 반영하는 이 bayesian이 필수적일 것이다. 모델이 100개의 데이터를 돌려 1개의 오류를 내는 것보다, 모델이 90개의 데이터를 확인하고 10게는 사람이 직접 확인해 오류가 없게 하는 것이 아직은 더 합리적이기 때문이다. <br>
+Probabilistic Model은 해당 데이터가 특정 클래스에 속할 확률을 나타내준다. 여기서 "0.7, 0.3? 차이가 별로 안 나니까 새로운 인물이라는 뜻인가보다!" 라는 결론을 쉽게 내려서는 안 된다. 모델의 성능에 따라, 혹은 데이터의 미세한 차이 때문에 모델을 돌릴 때마다 전혀 다른 값들이 등장하고는 한다. 실제로 특정 두 인물 A와 B의 차이에 대해서만 feature 구분을 했던 모델이 C에서 A와 비슷한 feature에 주목한다면 A 클래스로, b와 비슷한 feature에 주목한다면 반대로 분류하게 될테니 말이다.<br>
 
-Nonprob, prob, bayesian prob<br>
-값, 분포, 분포의 분포<br>
+Bayesian Probabilistic은 여기에서 차이를 나타낸다. 새로운 인물이 들어왔을 때 확률값이 요동치는 모습을 보여주어 우리는 이 모델이 제대로 구분을 못하고 있구나!라는 결론을 내리는 것이 가능해진다. 즉, Bayesian은 Uncertainty를 제대로 반영한다고 볼 수 있을 것이다. <br>
+자율주행 자동차, 암 진단 등 오류가 치명적인 분야에서는 uncertainty를 반영하는 이 bayesian이 필수적일 것이다. 모델이 100개의 데이터를 돌려 1개의 오류를 내는 것보다, 모델이 90개의 데이터를 확인하고 10개는 사람이 직접 확인해 오류가 없게 하는 것이 아직은 더 합리적이기 때문이다. <br>
+<br>
+**Nonprob, prob, bayesian prob**
+**값, 확률, 확률의 분포**<br>
 이렇게 생각하니 이해가 잘 되었다.<br>
 
+
+---
+test<br>
+test
+---
+test
+<br>
+test
+---
+test<br>
+<br>
+test
 
