@@ -5,9 +5,9 @@ excerpt: "Bayesian Probabilistic Model에 대해 살펴보기"
 categories:
   - statistics
 tags:
-  - [Bayesian, tag2]
+  - [tag1,tag2]
 
-permalink: /statistics/probcurvefitting/
+permalink: /statistics/prob-curve-fitting/
 
 toc: true
 toc_sticky: true
